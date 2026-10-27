@@ -1,0 +1,23 @@
+{
+  "name": "readme-forge",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI that detects a project stack and writes README.md plus a CHANGELOG.md template.",
+  "bin": {
+    "readme-forge": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --help",
+    "forge": "node index.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "keywords": [
+    "readme",
+    "changelog",
+    "cli",
+    "generator"
+  ]
+}
